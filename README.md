@@ -9,45 +9,45 @@ Follow the instructions below:
 
 Download from android-5.1.1_r38 source tree, for example to directory D:\Projects\Lollipop\platform the folders as follows:
 
-build
-dalvik
-development
-external
-frameworks
-libcore
-manifest
-packages
-prebuilts
-sdk
+build  
+dalvik  
+development  
+external  
+frameworks  
+libcore  
+manifest  
+packages  
+prebuilts  
+sdk  
 
-These are required applications inside external directory/folder:
+These are required applications inside external directory/folder:  
 
-antlr
-apache-http
-bouncycastle
-conscrypt
-doclava
-guava
-jarjar
-jsilver
-jsr305
-junit
-libphonenumber
-nist-sip
-okhttp
-proguard
-stlport
-tagsoup
+antlr  
+apache-http  
+bouncycastle  
+conscrypt  
+doclava  
+guava  
+jarjar  
+jsilver  
+jsr305  
+junit  
+libphonenumber  
+nist-sip  
+okhttp  
+proguard  
+stlport  
+tagsoup  
 
-These are required applications inside frameworks folder:
+These are required applications inside frameworks folder:  
 
-base
-ex
-multidex
-opt
-support
-
-For other folder, just download the entire content inside it.
+base  
+ex  
+multidex  
+opt  
+support  
+  
+For other folder, just download the entire content inside it.  
 
 Suppose your downloaded Android build system is in D:\Projects\Lollipop\platform\build, copy the envsetup.sh to this location.
 
@@ -55,5 +55,5 @@ Copy other modified build inside core folder to the D:\Projects\Lollipop\platfor
 
 Activate bash shell and execute envsetup.sh, for example:
 
-D:\Projects\Lollipop\platform\build>bash
+D:\Projects\Lollipop\platform\build>bash  
 bash-3.1$ ./envsetup.sh
