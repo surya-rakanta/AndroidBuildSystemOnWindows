@@ -55,7 +55,7 @@ For other folder, just download the entire content inside it.
 
 Suppose your downloaded Android build system is in D:\Projects\Lollipop\platform\build, copy the envsetup.sh to this location.
 
-Copy other modified build inside core folder to the D:\Projects\Lollipop\platform\build\core of your local drive.
+Copy other modified build files inside core folder to the D:\Projects\Lollipop\platform\build\core of your local drive.
 
 Activate bash shell and execute envsetup.sh, for example:
 
