@@ -3,7 +3,9 @@ Modified Android Lollipop (5.1.1) Build System for Windows OS
 
 This is the modified Android build system to be used to compile existing Android's apk file taken from android-5.1.1_r38.
 
-This modification allows the compilation process to be run on Windows OS Host.
+This modification allows the compilation process to be run on Windows OS Host. 
+
+This is proven to be successfully run on Windows OS version 7 (Windows-7-6.1.7601-SP1).
 
 Follow the instructions below:
 
@@ -46,6 +48,8 @@ ex
 multidex  
 opt  
 support  
+
+The package folder is downloaded with your choice of Android's internal APK, for example Contacts, that is used by this modified build system.
   
 For other folder, just download the entire content inside it.  
 
